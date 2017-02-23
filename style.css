@@ -27,8 +27,8 @@ body {
 }
 
 .hero nav {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .posts {
@@ -95,23 +95,23 @@ footer {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hero ul {
-  list-style: none;
-  display: flex;
+    list-style: none;
+    display: flex;
 }
 
 .hero li {
-  margin-right: 1em;
+    margin-right: 1em;
 }
 
 p {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 @media screen and (min-width: 35em) {
@@ -172,7 +172,7 @@ p {
 
   }
 
-  .hero h1 {
+    .hero h1 {
       margin-left: 2em;
   }
 
