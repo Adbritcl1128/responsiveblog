@@ -116,22 +116,19 @@ p {
 
 @media screen and (min-width: 35em) {
    .posts {
-      /* DO NOT CHANGE THESE */
       flex-direction: row;
     }
 
-    .posts article {
-        flex: 0 0 calc(50% - 2em);
-        margin: 1em;
-        box-sizing: border-box;
+   .posts article {
+      flex: 0 0 calc(50% - 2em);
+      margin: 1em;
+      box-sizing: border-box;
 
 
     }
 
     .sidebar {
-
-        /* DO NOT CHANGE THESE */
-        flex-direction: row;
+      flex-direction: row;
 
     }
 
@@ -142,23 +139,22 @@ p {
     }
 
     .hero h1 {
-        /* DO NOT CHANGE THESE */
-        color: #ffffff;
-        margin-left: 3em;
+      color: #ffffff;
+      margin-left: 3em;
     }
 }
 
 @media screen and (min-width: 70em) {
-  .container {
+    .container {
     flex-direction: row;
   }
-  .posts {
+    .posts {
       display: flex;
       flex: 1 0 25%;
 
   }
 
-  .sidebar {
+    .sidebar {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
@@ -168,13 +164,7 @@ p {
 
   }
 
-  .sidebar section {
-
-
-      /* DO NOT CHANGE THESE */
-      background-color: #dddddd;
-      border: 1px solid #444444;
-      height: 10em; /* this is just so we can see the articles since they have no content */
+    .sidebar section {
       width: 85%;
       flex-grow: 0;
       margin-top: 2em;
@@ -183,8 +173,6 @@ p {
   }
 
   .hero h1 {
-
-      /* DO NOT CHANGE THESE */
       margin-left: 2em;
   }
 
