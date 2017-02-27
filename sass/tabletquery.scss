@@ -1,0 +1,29 @@
+@media screen and (min-width: 35em) {
+   .posts {
+      flex-direction: row;
+    }
+
+   .posts article {
+      flex: 0 0 calc(50% - 2em);
+      margin: 1em;
+      box-sizing: border-box;
+
+
+    }
+
+    .sidebar {
+      flex-direction: row;
+
+    }
+
+    .sidebar section {
+      margin: 1em;
+      width: 15em;
+
+    }
+
+    .hero h1 {
+      color: #ffffff;
+      margin-left: 3em;
+    }
+}

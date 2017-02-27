@@ -1,0 +1,21 @@
+.posts {
+    color: $themeColor;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: $minimumMargin;
+
+
+
+}
+.posts article {
+    background-color: $themeBackgroundColor;
+    border: $themeBorder;
+    height: 20em;
+    flex: 0 0 45%;
+    margin: $minimumMargin;
+
+
+
+}

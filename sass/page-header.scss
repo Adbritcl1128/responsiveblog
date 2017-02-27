@@ -1,0 +1,27 @@
+.hero {
+
+
+    background-color: $themeColor;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.hero h1 {
+    color: $headerColor;
+}
+
+.hero nav {
+    display: flex;
+    align-items: center;
+}
+
+.hero ul {
+    list-style: none;
+    display: flex;
+}
+
+.hero li {
+    margin-right: $minimumMargin;
+}
